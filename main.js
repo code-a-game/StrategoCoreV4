@@ -107,7 +107,7 @@ console.log("Total pieces per team:", totalPieces);
 function preload() { 
     partyConnect(
         "wss://p5js-spaceman-server-29f6636dfb6c.herokuapp.com",
-        "jkv-strategoCoreV3" 
+        "jkv-strategoCoreV4" 
     );
 
     shared = partyLoadShared("shared", {
